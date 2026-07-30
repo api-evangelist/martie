@@ -1,7 +1,30 @@
 aid: martie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/martie.png
 name: Martie
-description: Martie is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Martie is a woman-owned, San Francisco-based online discount grocery
+  marketplace founded in 2021 to fight food waste and make quality goods
+  accessible and affordable. Martie works directly with brands on their
+  overstock, surplus, seasonal, and old-packaging inventory — pantry staples,
+  beauty, and household goods — and resells it to consumers at up to 80% off
+  retail with no membership or subscription required. Shoppers browse daily
+  deals through the martie.com website or the Martie iOS and Android apps. The
+  company reports having diverted over five million pounds of food from landfill
+  since launch. Martie is a direct-to-consumer e-commerce brand (a Shopify-hosted
+  storefront) and does not currently publish a public developer platform, API,
+  or documentation surface; this profile was surfaced as a Seedcamp portfolio
+  company and enriched with company identity plus a domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/martie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-commerce
+- Grocery
+- Retail
+- Marketplace
+- Consumer Goods
+- Food
+- Overstock
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://martie.com
+  url: https://martie.com
+- type: Support
+  url: https://martie.com/pages/faqs
+- type: Blog
+  url: https://martie.com/blogs/news
+- type: TermsOfService
+  url: https://martie.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://martie.com/policies/privacy-policy
+- type: DomainSecurity
+  url: security/martie-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
