@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/martie/integrations
+- https://n8n.io/integrations/martie/
+- https://composio.dev/toolkits/martie
+- https://monid.ai/tools/martie
+checked:
+- https://composio.dev/toolkits/martie
+- https://monid.ai/tools/martie
+- https://n8n.io/integrations/martie/
+- https://zapier.com/apps/martie/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
